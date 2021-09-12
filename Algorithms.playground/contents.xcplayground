@@ -6,8 +6,6 @@
         <page name='Rotate Array'/>
         <page name='Contains Duplicate'/>
         <page name='Single Number'/>
-        <page name='Valid Palindrome'/>
-        <page name='Valid Anagram'/>
         <page name='Intersection of Two Arrays II'/>
         <page name='Plus One'/>
         <page name='Move Zeroes'/>
@@ -17,5 +15,7 @@
         <page name='Reverse String'/>
         <page name='Reverse Integer'/>
         <page name='First Unique Character in a String'/>
+        <page name='Valid Anagram'/>
+        <page name='Valid Palindrome'/>
     </pages>
 </playground>
