@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
+        <page name='Remove Dupllicates from Sorted Array '/>
+        <page name='Best Time to Buy and Sell'/>
+        <page name='Rotate Array'/>
+        <page name='Contains Duplicate'/>
+        <page name='Single Number'/>
         <page name='Valid Palindrome'/>
         <page name='Valid Anagram'/>
+        <page name='Intersection of Two Arrays II'/>
+        <page name='Plus One'/>
+        <page name='Move Zeroes'/>
+        <page name='Two Sum'/>
+        <page name='Valid Sudoku'/>
+        <page name='Rotate Image'/>
+        <page name='Reverse String'/>
+        <page name='Reverse Integer'/>
+        <page name='First Unique Character in a String'/>
     </pages>
 </playground>
