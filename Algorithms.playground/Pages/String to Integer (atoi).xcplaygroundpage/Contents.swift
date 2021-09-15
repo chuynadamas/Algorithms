@@ -3,59 +3,39 @@
 import Foundation
 
 func myAtoi(_ s: String) -> Int {
-    let realNumber = cleanString(s)
-    if let atoi = Int(realNumber) {
-        if atoi > Int32.min && atoi < Int32.max {
-            return atoi
-        }
-    }
-    return 0
-}
-
-func myAtoiManual(_ s: String) -> Int {
-    var realNumber = Array(cleanString(s))
-    var numberResult : Int = 0
-    var isNegative: Bool = false
-    let zeroCodeScalar = "0".unicodeScalars
-    let zeroValue = zeroCodeScalar[zeroCodeScalar.startIndex].value
+    let chars = Array(s)
     
-    if realNumber.isEmpty {
-        return 0
-    } else {
-        if  let sign = realNumber.first {
-            if sign == "+" {
-                isNegative = false
-                realNumber.remove(at: 0)
-            } else if sign == "-" {
-                isNegative = true
-                realNumber.remove(at: 0)
+    var signRead = false
+    var sign = 1
+    var out = 0
+    
+    for char in chars {
+        guard out < Int(Int32.max) else {
+            break
+        }
+        if !signRead {
+            if char == " " {
+                continue
             }
-            
-            for number in realNumber {
-                let numberScalar = number.unicodeScalars
-                let valueCode = numberScalar[numberScalar.startIndex].value
-                let digit = Int(valueCode - zeroValue)
-                
-                numberResult *= 10
-                numberResult += digit
+            signRead = true
+            if char == "+" {
+                continue
             }
-            return isNegative ? -numberResult : numberResult
+            if char == "-" {
+                sign = -1
+                continue
+            }
+        }
+        
+        if let digit = char.wholeNumberValue {
+            out = (out * 10) + digit
+        } else {
+            break
         }
     }
-    return numberResult
+    
+    return max(min(Int(Int32.max), out * sign), Int(Int32.min))
 }
 
-func cleanString(_ s: String) -> String {
-    let allowedCharacters = Set<Character>("-+01234567890. ")
-    let sClean = s.filter { allowedCharacters.contains($0) }.split(separator: " ")
-    if  let value = sClean.first {
-        return String(value)
-    }
-    return ""
-}
-
-
-myAtoi("asfasd  -123 asfads")
-myAtoiManual("asfasd  - 123 asfads")
-
+myAtoi("20000000000000000000")
 //: [Next](@next)
