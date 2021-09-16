@@ -19,5 +19,6 @@
         <page name='Valid Palindrome'/>
         <page name='String to Integer (atoi)'/>
         <page name='strStr'/>
+        <page name='CountAndSay'/>
     </pages>
 </playground>
