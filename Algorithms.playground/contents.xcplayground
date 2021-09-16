@@ -20,5 +20,6 @@
         <page name='String to Integer (atoi)'/>
         <page name='strStr'/>
         <page name='CountAndSay'/>
+        <page name='LongestCommonPrefix'/>
     </pages>
 </playground>
