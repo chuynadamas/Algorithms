@@ -18,5 +18,6 @@
         <page name='Valid Anagram'/>
         <page name='Valid Palindrome'/>
         <page name='String to Integer (atoi)'/>
+        <page name='strStr'/>
     </pages>
 </playground>
