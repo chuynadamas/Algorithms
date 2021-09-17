@@ -23,5 +23,6 @@
         <page name='LongestCommonPrefix'/>
         <page name='DeleteNode'/>
         <page name='Remove Nth Node from end of list'/>
+        <page name='Reverse Link List'/>
     </pages>
 </playground>
