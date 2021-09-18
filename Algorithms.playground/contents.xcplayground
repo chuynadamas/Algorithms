@@ -26,5 +26,6 @@
         <page name='Reverse Link List'/>
         <page name='Merge Two List'/>
         <page name='Palindrome Linked List'/>
+        <page name='LinkedList Cycle'/>
     </pages>
 </playground>
