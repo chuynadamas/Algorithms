@@ -25,5 +25,6 @@
         <page name='Remove Nth Node from end of list'/>
         <page name='Reverse Link List'/>
         <page name='Merge Two List'/>
+        <page name='Palindrome Linked List'/>
     </pages>
 </playground>
