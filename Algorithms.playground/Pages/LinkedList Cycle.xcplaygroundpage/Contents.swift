@@ -21,7 +21,7 @@ node_2.next = node_3
 node_3.next = node_4
 node_4.next = node_1
 
-
+// Using the frozen structure Object Identifier to make the objects comparables
 func hasCycle(_ head: ListNode?) -> Bool {
     var stepOnePointer = head
     var stepTwoPointer = head
@@ -36,6 +36,7 @@ func hasCycle(_ head: ListNode?) -> Bool {
     return false
 }
 
+// Using the comparator !== which evaluate if the object is practically the same
 func hasCycleL(_ head: ListNode?) -> Bool {
     var slow = head
     var fast = head?.next
