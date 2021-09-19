@@ -27,5 +27,6 @@
         <page name='Merge Two List'/>
         <page name='Palindrome Linked List'/>
         <page name='LinkedList Cycle'/>
+        <page name='Maximum Depth of Binary Tree'/>
     </pages>
 </playground>
