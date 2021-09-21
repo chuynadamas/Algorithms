@@ -28,5 +28,8 @@
         <page name='Palindrome Linked List'/>
         <page name='LinkedList Cycle'/>
         <page name='Maximum Depth of Binary Tree'/>
+        <page name='Validate Binary Search Tree'/>
+        <page name='Symetric Tree'/>
+        <page name='Binary Tree Level Order Traversal'/>
     </pages>
 </playground>
