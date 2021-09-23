@@ -32,5 +32,6 @@
         <page name='Symetric Tree'/>
         <page name='Binary Tree Level Order Traversal'/>
         <page name='Convert Sorted Array to Binary Search Tree'/>
+        <page name='Merge Sorted Array '/>
     </pages>
 </playground>
