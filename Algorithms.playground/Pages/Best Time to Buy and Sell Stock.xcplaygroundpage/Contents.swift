@@ -17,7 +17,5 @@ func maxProfit(_ prices: [Int]) -> Int {
     return maxProfit
 }
 
-
 maxProfit([7,1,5,3,6,4])
-
 //: [Next](@next)
