@@ -34,5 +34,6 @@
         <page name='Convert Sorted Array to Binary Search Tree'/>
         <page name='Merge Sorted Array '/>
         <page name='First Bad Version'/>
+        <page name='Climbing Stairs'/>
     </pages>
 </playground>
