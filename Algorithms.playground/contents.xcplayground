@@ -35,5 +35,6 @@
         <page name='Merge Sorted Array '/>
         <page name='First Bad Version'/>
         <page name='Climbing Stairs'/>
+        <page name='Best Time to Buy and Sell Stock'/>
     </pages>
 </playground>
