@@ -39,5 +39,6 @@
         <page name='Maximum Subarray'/>
         <page name='House Robber'/>
         <page name='Shuffle an Array'/>
+        <page name='Min Stack'/>
     </pages>
 </playground>
