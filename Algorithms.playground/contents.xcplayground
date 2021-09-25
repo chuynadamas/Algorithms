@@ -38,5 +38,6 @@
         <page name='Best Time to Buy and Sell Stock'/>
         <page name='Maximum Subarray'/>
         <page name='House Robber'/>
+        <page name='Shuffle an Array'/>
     </pages>
 </playground>
