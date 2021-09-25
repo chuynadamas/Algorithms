@@ -36,5 +36,6 @@
         <page name='First Bad Version'/>
         <page name='Climbing Stairs'/>
         <page name='Best Time to Buy and Sell Stock'/>
+        <page name='Maximum Subarray'/>
     </pages>
 </playground>
