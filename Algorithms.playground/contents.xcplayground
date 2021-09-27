@@ -40,5 +40,6 @@
         <page name='House Robber'/>
         <page name='Shuffle an Array'/>
         <page name='Min Stack'/>
+        <page name='FizzBuzz'/>
     </pages>
 </playground>
