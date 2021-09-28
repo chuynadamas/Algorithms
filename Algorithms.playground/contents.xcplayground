@@ -41,5 +41,6 @@
         <page name='Shuffle an Array'/>
         <page name='Min Stack'/>
         <page name='FizzBuzz'/>
+        <page name='Count Primes'/>
     </pages>
 </playground>
