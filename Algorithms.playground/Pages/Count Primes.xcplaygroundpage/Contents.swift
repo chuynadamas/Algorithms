@@ -3,25 +3,27 @@
 import Foundation
 
 func countPrimes(_ n: Int) -> Int {
-    if n <= 3 { return 0 }
-    var isPrime : [Bool] = Array(repeatElement(true, count: n))
+    if n <= 2 { return 0 }
+    var primes = Array(repeating: true, count: n)
+    var i = 2
     
-    let root = Double(n).squareRoot()
-    let limit = Int(root)
+    while i * i < n {
+        if primes[i] {
+            var j  = i
+            while j * i < n {
+                primes[j * i] = false
+                j += 1
+            }
+        }
+        i += 1
+    }
     
-    for i in 2...limit {
-        if !isPrime[i] { continue }
-        for j in stride(from: i*i, through: n-1, by: i) {
-            isPrime[j] = false
-        }
+    var count = 0
+    for k in stride(from: 2, to: n, by: 1) {
+        count += primes[k] ? 1 : 0
     }
-    var total = 0
-    for i in 2..<n {
-        if isPrime[i] {
-            total += 1
-        }
-    }
-    return total
+    
+    return count
 }
 
 countPrimes(3)
