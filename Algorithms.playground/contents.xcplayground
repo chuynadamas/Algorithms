@@ -43,5 +43,6 @@
         <page name='FizzBuzz'/>
         <page name='Count Primes'/>
         <page name='Power of Three '/>
+        <page name='Roman to integer'/>
     </pages>
 </playground>
