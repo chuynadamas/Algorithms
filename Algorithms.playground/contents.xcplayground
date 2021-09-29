@@ -42,5 +42,6 @@
         <page name='Min Stack'/>
         <page name='FizzBuzz'/>
         <page name='Count Primes'/>
+        <page name='Power of Three '/>
     </pages>
 </playground>
