@@ -14,22 +14,17 @@ let table : [Character : Int] = [
 
 func romanToInt(_ s: String) -> Int {
     var numbers : [Int] = []
-    var total : Int = 0
-    for char in s.reversed() {
-        numbers.append(table[char]!)
-    }
+    for char in s { numbers.append(table[char]!) }
     
-    for i in stride(from: 1, through: numbers.count-1, by: 2) {
-        if numbers[i-1] > numbers[i] {
-            total = numbers[i-1] - numbers[i]
+    for i in 1..<numbers.count {
+        if numbers[i-1] < numbers[i] {
+            numbers[i-1] = -numbers[i-1]
         }
     }
-    
-    print(numbers)
-    return total
+    return numbers.reduce(0) { $0 + $1 }
 }
 
-romanToInt("MCMXCIV")
+romanToInt("M")
 
 
 //: [Next](@next)
