@@ -46,5 +46,6 @@
         <page name='Roman to integer'/>
         <page name='Number of 1 Bits'/>
         <page name='Hamming Distance'/>
+        <page name='Reverse bits'/>
     </pages>
 </playground>
