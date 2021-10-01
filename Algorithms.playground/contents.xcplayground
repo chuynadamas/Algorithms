@@ -45,5 +45,6 @@
         <page name='Power of Three '/>
         <page name='Roman to integer'/>
         <page name='Number of 1 Bits'/>
+        <page name='Hamming Distance'/>
     </pages>
 </playground>
