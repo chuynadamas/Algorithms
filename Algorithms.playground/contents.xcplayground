@@ -44,5 +44,6 @@
         <page name='Count Primes'/>
         <page name='Power of Three '/>
         <page name='Roman to integer'/>
+        <page name='Number of 1 Bits'/>
     </pages>
 </playground>
