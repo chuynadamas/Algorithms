@@ -49,5 +49,6 @@
         <page name='Reverse bits'/>
         <page name='Pascal Triangle'/>
         <page name='Valid Parentheses'/>
+        <page name='Missing Numbers'/>
     </pages>
 </playground>
