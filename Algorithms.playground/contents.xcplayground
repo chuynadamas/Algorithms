@@ -48,5 +48,6 @@
         <page name='Hamming Distance'/>
         <page name='Reverse bits'/>
         <page name='Pascal Triangle'/>
+        <page name='Valid Parentheses'/>
     </pages>
 </playground>
