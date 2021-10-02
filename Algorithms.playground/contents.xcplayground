@@ -47,5 +47,6 @@
         <page name='Number of 1 Bits'/>
         <page name='Hamming Distance'/>
         <page name='Reverse bits'/>
+        <page name='Pascal Triangle'/>
     </pages>
 </playground>
