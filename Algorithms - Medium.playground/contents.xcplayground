@@ -4,5 +4,6 @@
         <page name='Sum 3'/>
         <page name='Set Matrix Zeroes'/>
         <page name='Group Anagrams'/>
+        <page name='Longest Substring Without Repeating Characters'/>
     </pages>
 </playground>
