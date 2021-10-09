@@ -3,5 +3,6 @@
     <pages>
         <page name='Sum 3'/>
         <page name='Set Matrix Zeroes'/>
+        <page name='Group Anagrams'/>
     </pages>
 </playground>
