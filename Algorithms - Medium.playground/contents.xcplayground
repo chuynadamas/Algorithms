@@ -6,5 +6,6 @@
         <page name='Group Anagrams'/>
         <page name='Longest Substring Without Repeating Characters'/>
         <page name='Longest Palindromic Substring'/>
+        <page name='Increasing Triplet Subsequence'/>
     </pages>
 </playground>
