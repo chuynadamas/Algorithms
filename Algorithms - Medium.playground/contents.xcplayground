@@ -7,5 +7,6 @@
         <page name='Longest Substring Without Repeating Characters'/>
         <page name='Longest Palindromic Substring'/>
         <page name='Increasing Triplet Subsequence'/>
+        <page name='Add Two Numbers'/>
     </pages>
 </playground>
