@@ -9,5 +9,6 @@
         <page name='Increasing Triplet Subsequence'/>
         <page name='Add Two Numbers'/>
         <page name='Odd Even Linked List'/>
+        <page name='Intersection of Two Linked Lists'/>
     </pages>
 </playground>
