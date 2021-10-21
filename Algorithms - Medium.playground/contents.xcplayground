@@ -10,5 +10,6 @@
         <page name='Add Two Numbers'/>
         <page name='Odd Even Linked List'/>
         <page name='Intersection of Two Linked Lists'/>
+        <page name='Binary Tree Inorder Traversal'/>
     </pages>
 </playground>
