@@ -13,5 +13,6 @@
         <page name='Binary Tree Inorder Traversal'/>
         <page name='Binary Tree Zigzag Level Order Traversal'/>
         <page name='Construct Binary Tree from Preorder and Inorder Traversal'/>
+        <page name='Populating Next Right Pointers in Each Node'/>
     </pages>
 </playground>
