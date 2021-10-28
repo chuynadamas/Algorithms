@@ -20,20 +20,22 @@ func connect(_ root: Node?) -> Node? {
     guard root != nil else {
         return root
     }
-    
-    var leftNode = root
-    while leftNode?.left != nil {
-        var head = leftNode
-        while head != nil {
-            head?.right?.next = head?.next?.left
-            if head?.next != nil {
-                head?.right?.next = head?.next?.left
+    var current = root
+    while current?.left != nil {
+        let nextLevel = current?.left
+        while current != nil {
+            current?.left?.next = current?.right
+            if current?.next == nil {
+                //There is no more nodes to the right
+                current?.right?.next = nil
+            } else {
+                //Look in the upper level the next node
+                current?.right?.next = current?.next?.left
             }
-            head = head?.next
+            current = current?.next
         }
-        leftNode = leftNode?.left
+        current = nextLevel
     }
-    
     return root
 }
 
