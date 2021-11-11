@@ -36,5 +36,4 @@ func letterCombinations(_ digits: String) -> [String] {
 }
 
 letterCombinations("23")
-
 //: [Next](@next)
