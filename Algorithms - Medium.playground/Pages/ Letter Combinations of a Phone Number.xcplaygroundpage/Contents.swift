@@ -22,9 +22,9 @@ func letterCombinations(_ digits: String) -> [String] {
             result.append(curStr)
             return
         }
-        if let foo = digitsToChar[digitsArray[i]] {
-            for c in foo {
-                backtrack(i+1, curStr + c)
+        if let letters = digitsToChar[digitsArray[i]] {
+            for letter in letters {
+                backtrack(i+1, curStr + letter)
             }
         }
     }
@@ -34,6 +34,7 @@ func letterCombinations(_ digits: String) -> [String] {
     }
     return result
 }
+
 
 letterCombinations("23")
 //: [Next](@next)
