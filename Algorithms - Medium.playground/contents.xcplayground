@@ -17,5 +17,6 @@
         <page name='Kth Smallest Element in a BST'/>
         <page name='Number of Islands'/>
         <page name=' Letter Combinations of a Phone Number'/>
+        <page name='Generate Parentheses'/>
     </pages>
 </playground>
