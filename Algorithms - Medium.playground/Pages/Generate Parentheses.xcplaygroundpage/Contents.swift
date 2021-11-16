@@ -10,7 +10,6 @@ func generateParenthesis(_ n: Int) -> [String] {
     func backtrack(_ open: Int, _ close:Int) {
         //handling base scenario
         if open == close && close == n {
-            print(stack)
             result.append(stack.joined(separator: ""))
             return
         }
