@@ -18,5 +18,6 @@
         <page name='Number of Islands'/>
         <page name=' Letter Combinations of a Phone Number'/>
         <page name='Generate Parentheses'/>
+        <page name='Permutations'/>
     </pages>
 </playground>
