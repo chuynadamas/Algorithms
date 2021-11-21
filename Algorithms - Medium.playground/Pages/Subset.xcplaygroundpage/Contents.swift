@@ -26,5 +26,5 @@ func subsets(_ nums: [Int]) -> [[Int]] {
 }
 
 
-subsets([1,2,3])
+subsets([1,2,3,4,5])
 //: [Next](@next)

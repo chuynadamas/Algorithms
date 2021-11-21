@@ -1,7 +1,6 @@
 //: [Previous](@previous)
 
 import Foundation
-import Darwin
 
 func generateParenthesis(_ n: Int) -> [String] {
     var stack : [String] = []
