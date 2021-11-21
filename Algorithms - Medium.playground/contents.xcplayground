@@ -26,5 +26,7 @@
         <page name='Kth Largest Element in Array'/>
         <page name='Search Rotated Sorted Array'/>
         <page name='Jump Game'/>
+        <page name=' Unique Paths'/>
+        <page name='Coin Change'/>
     </pages>
 </playground>
