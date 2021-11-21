@@ -24,5 +24,6 @@
         <page name='Sort Colors'/>
         <page name='Top Kth Elements'/>
         <page name='Kth Largest Element in Array'/>
+        <page name='Search Rotated Sorted Array'/>
     </pages>
 </playground>
