@@ -22,5 +22,6 @@
         <page name='Subset'/>
         <page name='Word Search'/>
         <page name='Sort Colors'/>
+        <page name='Top Kth Elements'/>
     </pages>
 </playground>
