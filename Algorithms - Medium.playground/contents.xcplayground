@@ -19,5 +19,6 @@
         <page name=' Letter Combinations of a Phone Number'/>
         <page name='Generate Parentheses'/>
         <page name='Permutations'/>
+        <page name='Subset'/>
     </pages>
 </playground>
