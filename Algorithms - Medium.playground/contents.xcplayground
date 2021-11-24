@@ -28,5 +28,6 @@
         <page name='Jump Game'/>
         <page name=' Unique Paths'/>
         <page name='Coin Change'/>
+        <page name='Serialize and Deserialize Binary tree'/>
     </pages>
 </playground>
