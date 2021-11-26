@@ -32,5 +32,6 @@
         <page name='Happy Number'/>
         <page name='Factorial Trailing Zeroes'/>
         <page name='Fraction to Recurring Decimal'/>
+        <page name='Sum of Two Integers'/>
     </pages>
 </playground>
