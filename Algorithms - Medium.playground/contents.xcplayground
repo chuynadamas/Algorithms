@@ -30,5 +30,7 @@
         <page name='Coin Change'/>
         <page name='Serialize and Deserialize Binary tree'/>
         <page name='Happy Number'/>
+        <page name='Factorial Trailing Zeroes'/>
+        <page name='Fraction to Recurring Decimal'/>
     </pages>
 </playground>
