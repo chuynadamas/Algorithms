@@ -29,5 +29,6 @@
         <page name=' Unique Paths'/>
         <page name='Coin Change'/>
         <page name='Serialize and Deserialize Binary tree'/>
+        <page name='Happy Number'/>
     </pages>
 </playground>
