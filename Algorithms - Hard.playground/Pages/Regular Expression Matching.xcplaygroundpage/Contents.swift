@@ -33,7 +33,6 @@ func isMatch(_ s: String, _ p: String) -> Bool {
         cache[String(i) + String(j)] = false
         return false
     }
-    
     return backtracking(0,0)
 }
 
