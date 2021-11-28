@@ -35,5 +35,6 @@
         <page name='Sum of Two Integers'/>
         <page name='Decode String'/>
         <page name='SnapshotArray'/>
+        <page name='Minimum Domino Rotations'/>
     </pages>
 </playground>
