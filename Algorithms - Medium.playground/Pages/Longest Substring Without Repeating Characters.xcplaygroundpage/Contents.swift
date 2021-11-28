@@ -1,12 +1,9 @@
 //: [Previous](@previous)
 
 import Foundation
-import CoreGraphics
-import Darwin
 
 func lengthOfLongestSubstring(_ s: String) -> Int {
-    
-    var charArray = Array(s)
+    let charArray = Array(s)
     var dict = [Character: Int]()
     var l = 0
     

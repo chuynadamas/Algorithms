@@ -3,5 +3,6 @@
     <pages>
         <page name='Regular Expression Matching'/>
         <page name=' Binary Tree Maximum Path Sum'/>
+        <page name='Confusing Number'/>
     </pages>
 </playground>
