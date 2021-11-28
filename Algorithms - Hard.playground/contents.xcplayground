@@ -6,5 +6,6 @@
         <page name='Confusing Number'/>
         <page name='Word Ladder'/>
         <page name=' Longest Increasing Path in a Matrix'/>
+        <page name='Cleaning Room'/>
     </pages>
 </playground>
