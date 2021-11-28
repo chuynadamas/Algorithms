@@ -7,5 +7,6 @@
         <page name='Word Ladder'/>
         <page name=' Longest Increasing Path in a Matrix'/>
         <page name='Cleaning Room'/>
+        <page name='Minimum Window Substring'/>
     </pages>
 </playground>
