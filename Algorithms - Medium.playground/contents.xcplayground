@@ -34,5 +34,6 @@
         <page name='Fraction to Recurring Decimal'/>
         <page name='Sum of Two Integers'/>
         <page name='Decode String'/>
+        <page name='SnapshotArray'/>
     </pages>
 </playground>
