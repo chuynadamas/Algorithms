@@ -3,52 +3,50 @@
 import Foundation
 
 func minWindow(_ s: String, _ t: String) -> String {
-    guard !s.isEmpty || !t.isEmpty else {
-        return ""
-    }
     
-    var res = ""
+    guard s.count > 0, t.count > 0 else { return "" }
     
-    var letterCount: [String: Int] = [:]
-    
+    var tDict: [Character: Int] = [:]
     for c in t {
-        if let value = letterCount[String(c)] {
-            letterCount[String(c)] = value + 1
-        } else {
-            letterCount[String(c)] = 1
-        }
+        tDict[c, default: 0] += 1
     }
     
-    var count = 0
-    var leftIndex = 0
-    var minLength = Int.max
-    var sString = Array(s)
+    var left = 0, right = 0, formed = 0
+    var savedLeft = 0
+    var savedRight = 0
+    var savedLength = -1
     
-    for rightIndex in 0..<sString.count {
-        if  let value = letterCount[String(sString[rightIndex])] {
-            letterCount[String(sString[rightIndex])] = value - 1
-            if (value-1) >= 0 {
-                count += 1
-            }
+    var windowDict: [Character: Int] = [:]
+    var s = Array(s)
+    
+    while right < s.count {
+        let c = s[right]
+        windowDict[c, default: 0] += 1
+        
+        if let count = tDict[c], count == windowDict[c] {
+            formed += 1
         }
         
-        while count == t.count {
-            if minLength > rightIndex - (leftIndex + 1) {
-                res = String(sString[leftIndex...rightIndex])
-                minLength = res.count
+        while left <= right, formed == tDict.count {
+            let c = s[left]
+            if savedLength == -1 || right - left + 1 < savedLength {
+                savedLength = right - left + 1
+                savedLeft = left
+                savedRight = right
             }
             
-            if  let value = letterCount[String(sString[leftIndex])] {
-                letterCount[String(sString[leftIndex])] = value + 1
-                if value + 1 > 0 {
-                    count -= 1
+            if let count = windowDict[c], count > 0 {
+                windowDict[c] = count - 1
+                
+                if let required = tDict[c], count - 1 < required {
+                    formed -= 1
                 }
             }
-            leftIndex += 1
+            left += 1
         }
+        right += 1
     }
-    
-    return res
+    return savedLength == -1 ? "" : String(s[savedLeft...savedRight])
 }
 
 
