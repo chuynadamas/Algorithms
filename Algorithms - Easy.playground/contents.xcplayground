@@ -50,5 +50,6 @@
         <page name='Pascal Triangle'/>
         <page name='Valid Parentheses'/>
         <page name='Missing Numbers'/>
+        <page name='Range Sum of BST'/>
     </pages>
 </playground>

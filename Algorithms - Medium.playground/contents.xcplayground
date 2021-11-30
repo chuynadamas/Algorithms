@@ -36,5 +36,6 @@
         <page name='Decode String'/>
         <page name='SnapshotArray'/>
         <page name='Minimum Domino Rotations'/>
+        <page name='Longest Univalue Path'/>
     </pages>
 </playground>
