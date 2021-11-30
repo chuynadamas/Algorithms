@@ -10,5 +10,6 @@
         <page name='Minimum Window Substring'/>
         <page name='Text Justification'/>
         <page name='RaceCar'/>
+        <page name='Strobogrammatic number'/>
     </pages>
 </playground>
