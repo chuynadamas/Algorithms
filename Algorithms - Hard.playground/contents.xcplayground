@@ -8,5 +8,7 @@
         <page name=' Longest Increasing Path in a Matrix'/>
         <page name='Cleaning Room'/>
         <page name='Minimum Window Substring'/>
+        <page name='Text Justification'/>
+        <page name='RaceCar'/>
     </pages>
 </playground>
