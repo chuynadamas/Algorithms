@@ -43,5 +43,6 @@
         <page name='Search 2D Matrix'/>
         <page name='Longest Increasing Subsequence'/>
         <page name='Randomize Set'/>
+        <page name='Title Number'/>
     </pages>
 </playground>
