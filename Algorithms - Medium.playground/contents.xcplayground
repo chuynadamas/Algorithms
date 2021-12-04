@@ -41,5 +41,7 @@
         <page name='Search Range'/>
         <page name='Merge Intervals'/>
         <page name='Search 2D Matrix'/>
+        <page name='Longest Increasing Subsequence'/>
+        <page name='Randomize Set'/>
     </pages>
 </playground>
