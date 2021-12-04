@@ -39,5 +39,6 @@
         <page name='Longest Univalue Path'/>
         <page name='Find Peak Element'/>
         <page name='Search Range'/>
+        <page name='Merge Intervals'/>
     </pages>
 </playground>
