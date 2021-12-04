@@ -40,5 +40,6 @@
         <page name='Find Peak Element'/>
         <page name='Search Range'/>
         <page name='Merge Intervals'/>
+        <page name='Search 2D Matrix'/>
     </pages>
 </playground>
