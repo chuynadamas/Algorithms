@@ -38,5 +38,6 @@
         <page name='Minimum Domino Rotations'/>
         <page name='Longest Univalue Path'/>
         <page name='Find Peak Element'/>
+        <page name='Search Range'/>
     </pages>
 </playground>

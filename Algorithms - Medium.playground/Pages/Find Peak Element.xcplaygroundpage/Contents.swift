@@ -8,7 +8,7 @@ func findPeakElement(_ nums: [Int]) -> Int {
     
     while left < right {
         
-        var mid = left + (right - left)/2
+        let mid = left + (right - left)/2
         
         if nums[mid] < nums[mid+1] {
             left = mid + 1
