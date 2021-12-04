@@ -37,5 +37,6 @@
         <page name='SnapshotArray'/>
         <page name='Minimum Domino Rotations'/>
         <page name='Longest Univalue Path'/>
+        <page name='Find Peak Element'/>
     </pages>
 </playground>
