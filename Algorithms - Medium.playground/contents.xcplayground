@@ -47,5 +47,7 @@
         <page name='My Pow'/>
         <page name='My Sqrt'/>
         <page name='EvalRPN'/>
+        <page name='Majority Element'/>
+        <page name='Partition Equal Subset Sum'/>
     </pages>
 </playground>
