@@ -1,5 +1,17 @@
 //: [Previous](@previous)
 
+/*
+ Given a string s, return the longest palindromic substring in s.
+
+ ```
+ Example 1:
+
+ Input: s = "babad"
+ Output: "bab"
+ Note: "aba" is also a valid answer.
+ ```
+ */
+
 import Foundation
 
 func longestPalindrome(_ s: String) -> String {
@@ -19,7 +31,7 @@ func longestPalindrome(_ s: String) -> String {
         
         while l >= 0 &&
               r < sArray.count &&
-                sArray[l] == sArray[r] {
+            sArray[l] == sArray[r] {
             
             if (r - l + 1) > resLen {
                 result = String(sArray[l...r])
@@ -50,6 +62,5 @@ func longestPalindrome(_ s: String) -> String {
 
 longestPalindrome("babad")
 longestPalindrome("cbbd")
-
 
 //: [Next](@next)

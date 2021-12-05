@@ -1,4 +1,14 @@
 //: [Previous](@previous)
+/*
+ Given a string s, find the length of the longest substring without repeating characters.
+ 
+ ```
+ Input: s = "abcabcbb"
+ Output: 3
+ Explanation: The answer is "abc", with the length of 3.
+ ```
+ */
+
 
 import Foundation
 
@@ -11,7 +21,7 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     
     //Keep opening the window
     for r in 0..<charArray.count {
-        print(dict)
+        
         while dict[charArray[r]] != nil && dict[charArray[r]]! != 0 {
             //Remove the duplicated character
             dict[charArray[l]]! -= 1

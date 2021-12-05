@@ -1,5 +1,18 @@
 //: [Previous](@previous)
 
+/*
+ Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+  
+```
+ Example 1:
+
+ Input: n = 3
+ Output: ["((()))","(()())","(())()","()(())","()()()"]
+ ```
+ 
+ */
+
 import Foundation
 
 func generateParenthesis(_ n: Int) -> [String] {

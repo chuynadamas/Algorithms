@@ -49,5 +49,6 @@
         <page name='EvalRPN'/>
         <page name='Majority Element'/>
         <page name='Partition Equal Subset Sum'/>
+        <page name='Task Scheduler'/>
     </pages>
 </playground>

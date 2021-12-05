@@ -1,5 +1,17 @@
 //: [Previous](@previous)
 
+/*
+ Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+
+ 
+```
+ Example 1:
+
+ Input: nums = [1,1,1,2,2,3], k = 2
+ Output: [1,2]
+ ```
+ */
+
 import Foundation
 
 func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
@@ -22,14 +34,16 @@ func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
     var result = [Int]()
     
     for i in (0..<freq.count).reversed() {
-        result.append(contentsOf: freq[i])
-        if result.count == k {
-            return result
+        if !freq[i].isEmpty {
+            result.append(contentsOf: freq[i])
+            if result.count == k {
+                return result
+            }
         }
     }
     return result
 }
 
-topKFrequent([-1,-1],1)
+topKFrequent([1,1,1,2,2,2,3],3)
 
 //: [Next](@next)
