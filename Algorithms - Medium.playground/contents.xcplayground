@@ -44,5 +44,8 @@
         <page name='Longest Increasing Subsequence'/>
         <page name='Randomize Set'/>
         <page name='Title Number'/>
+        <page name='My Pow'/>
+        <page name='My Sqrt'/>
+        <page name='EvalRPN'/>
     </pages>
 </playground>
