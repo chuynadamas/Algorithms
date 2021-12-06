@@ -11,5 +11,9 @@
         <page name='Pair Sums'/>
         <page name='Encripted words'/>
         <page name='Balanced Split'/>
+        <page name='QueueRemovals'/>
+        <page name='ReverseOperations'/>
+        <page name='Contiguous Subarrays '/>
+        <page name='Reverse To Make Equal'/>
     </pages>
 </playground>
