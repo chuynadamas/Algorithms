@@ -24,7 +24,6 @@
  
  After reversing the subarray of B from indices 1 to 3, array B will equal array A.
  
- 
    0   1   2   3
  [ 1 , 2 , 3 , 4 ]
  
