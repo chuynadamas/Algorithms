@@ -20,5 +20,7 @@
         <page name='Magical Candy Bags'/>
         <page name='Mediam Stream'/>
         <page name='Slow Sums'/>
+        <page name='FindMinArray'/>
+        <page name='Min Overlay Akwarness'/>
     </pages>
 </playground>
