@@ -22,5 +22,7 @@
         <page name='Slow Sums'/>
         <page name='FindMinArray'/>
         <page name='Min Overlay Akwarness'/>
+        <page name=' Nodes in a Subtree'/>
+        <page name='Change in a Foreign Currency'/>
     </pages>
 </playground>
