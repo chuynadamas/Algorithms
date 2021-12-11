@@ -24,5 +24,7 @@
         <page name='Min Overlay Akwarness'/>
         <page name=' Nodes in a Subtree'/>
         <page name='Change in a Foreign Currency'/>
+        <page name='Counting Triangles'/>
+        <page name='Minimizing Permutations'/>
     </pages>
 </playground>
