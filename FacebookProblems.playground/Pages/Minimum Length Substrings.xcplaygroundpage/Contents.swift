@@ -1,26 +1,46 @@
 //: [Previous](@previous)
-
+/**
+ Minimum Length Substrings
+ You are given two strings s and t. You can select any substring of string s and rearrange the characters of the selected substring. Determine the minimum length of the substring of s such that string t is a substring of the selected substring.
+ 
+ Signature
+ int minLengthSubstring(String s, String t)
+ 
+ Input
+ s and t are non-empty strings that contain less than 1,000,000 characters each
+ 
+ Output
+ Return the minimum length of the substring of s. If it is not possible, return -1
+ Example
+ s = "dcbefebce"
+ t = "fd"
+ output = 5
+ 
+ Explanation:
+ Substring "dcbef" can be rearranged to "cfdeb", "cefdb", and so on. String t is a substring of "cfdeb". Thus, the minimum length required is 5.
+ 
+ */
 import Foundation
 
 extension String {
     func minLengthOfRearrangedSubstring(containing substring: String) -> Int {
-      var subArray = Array(substring)
-      var stringArray = Array(self)
-      
-      if substring.count > self.count {
-        return -1
-      }
-      
-      var result = 0
-      for character in subArray {
-        if let index = stringArray.firstIndex(of: character) {
-          stringArray[index] = "-"
-          result = max(index+1, result)
-        } else {
-          return -1
+        let subArray = Array(substring)
+        var stringArray = Array(self)
+        
+        if substring.count > self.count {
+            return -1
         }
-      }
-      return result
+        
+        var result = 0
+        for character in subArray {
+            if let index = stringArray.firstIndex(of: character) {
+                stringArray[index] = "-"
+                result = max(index+1, result)
+            } else {
+                return -1
+            }
+        }
+        return result
     }
 }
 
@@ -31,16 +51,16 @@ extension String {
 var testCaseNumber = 1
 
 private func check(_ expectedValue: Int, matches output: Int) {
-  let rightTick = "\u{2713}"
-  let wrongTick = "\u{2717}"
+    let rightTick = "\u{2713}"
+    let wrongTick = "\u{2717}"
     
-  let result = expectedValue == output
-  if result {
-      print("\(rightTick) Test #\(testCaseNumber)")
-  } else {
-      print("\(wrongTick) Test #\(testCaseNumber) Expected: \(expectedValue) Your output: \(output)")
-  }
-  testCaseNumber += 1
+    let result = expectedValue == output
+    if result {
+        print("\(rightTick) Test #\(testCaseNumber)")
+    } else {
+        print("\(wrongTick) Test #\(testCaseNumber) Expected: \(expectedValue) Your output: \(output)")
+    }
+    testCaseNumber += 1
 }
 
 let s1 = "dcbefebce"
