@@ -51,5 +51,6 @@
         <page name='Valid Parentheses'/>
         <page name='Missing Numbers'/>
         <page name='Range Sum of BST'/>
+        <page name='Valid Palindrome II '/>
     </pages>
 </playground>
