@@ -53,5 +53,6 @@
         <page name='Meeting Rooms II'/>
         <page name='Find Minimum in Rotated Array '/>
         <page name='Binary Tree Level Order Traversal'/>
+        <page name='Closest Points to Origin K '/>
     </pages>
 </playground>
