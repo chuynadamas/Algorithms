@@ -54,5 +54,7 @@
         <page name='Find Minimum in Rotated Array '/>
         <page name='Binary Tree Level Order Traversal'/>
         <page name='Closest Points to Origin K '/>
+        <page name='Product of Array Except Self'/>
+        <page name='Next Permutation'/>
     </pages>
 </playground>
