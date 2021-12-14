@@ -23,17 +23,23 @@
 import Foundation
 
 func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
-    if root == nil {
-        return 0
+    var longest = 0
+    
+    func getLongesthPath(_ node: TreeNode?) -> Int {
+        if node == nil {
+            return 0
+        }
+        
+        let left  = getLongesthPath(node!.left) + 1
+        let right =  getLongesthPath(node!.right) + 1
+        let sum =  left + right
+        if longest < sum {
+            longest = sum
+        }
+        return max(left, right)
     }
-    return getLongesthPath(root!.left) + getLongesthPath(root!.right)
-}
-
-func getLongesthPath(_ node: TreeNode?) -> Int {
-    if node == nil {
-        return 0
-    }
-    return max(getLongesthPath(node!.left) + 1, getLongesthPath(node!.right) + 1)
+    
+    return getLongesthPath(root)
 }
 
 //: [Next](@next)
