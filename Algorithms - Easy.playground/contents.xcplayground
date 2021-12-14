@@ -52,5 +52,6 @@
         <page name='Missing Numbers'/>
         <page name='Range Sum of BST'/>
         <page name='Valid Palindrome II '/>
+        <page name='Diameter Binary Tree'/>
     </pages>
 </playground>
