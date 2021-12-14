@@ -56,5 +56,6 @@
         <page name='Closest Points to Origin K '/>
         <page name='Product of Array Except Self'/>
         <page name='Next Permutation'/>
+        <page name='Binary Search Tree Iterator'/>
     </pages>
 </playground>
