@@ -43,13 +43,13 @@ func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
             return 0
         }
         
-        let left  = getLongesthPath(node!.left) + 1
-        let right =  getLongesthPath(node!.right) + 1
+        let left  = getLongesthPath(node!.left)
+        let right =  getLongesthPath(node!.right)
         let sum =  left + right
         if longest < sum {
             longest = sum
         }
-        return max(left, right)
+        return max(left, right) + 1
     }
     
     return getLongesthPath(root)
