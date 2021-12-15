@@ -57,5 +57,6 @@
         <page name='Product of Array Except Self'/>
         <page name='Next Permutation'/>
         <page name='Binary Search Tree Iterator'/>
+        <page name='Maximum Path Sum in a Binary Tree'/>
     </pages>
 </playground>
