@@ -11,5 +11,6 @@
         <page name='Text Justification'/>
         <page name='RaceCar'/>
         <page name='Strobogrammatic number'/>
+        <page name='Convert a Binary Tree to a Circular Doubly Link List'/>
     </pages>
 </playground>
