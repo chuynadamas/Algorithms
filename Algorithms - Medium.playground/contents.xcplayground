@@ -59,5 +59,6 @@
         <page name='Binary Search Tree Iterator'/>
         <page name='Maximum Path Sum in a Binary Tree'/>
         <page name='Is Graph Bipartite?'/>
+        <page name='Continuous Subarray Sum'/>
     </pages>
 </playground>
