@@ -46,7 +46,6 @@ func alienOrder(_ words: [String]) -> String {
     var visit: [Character: Bool] = [:]
     var result: [Character] = []
     
-    
     @discardableResult func dfs(_ c: Character) -> Bool {
         if visit[c] != nil {
             return visit[c]!
