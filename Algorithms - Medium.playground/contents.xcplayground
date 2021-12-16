@@ -58,5 +58,6 @@
         <page name='Next Permutation'/>
         <page name='Binary Search Tree Iterator'/>
         <page name='Maximum Path Sum in a Binary Tree'/>
+        <page name='Is Graph Bipartite?'/>
     </pages>
 </playground>
