@@ -62,5 +62,6 @@
         <page name='Continuous Subarray Sum'/>
         <page name='Find Target Sum Array '/>
         <page name='Copy Random List'/>
+        <page name='Reorder List'/>
     </pages>
 </playground>
